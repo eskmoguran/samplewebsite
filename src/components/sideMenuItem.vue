@@ -12,10 +12,14 @@
     <v-divider></v-divider>
     <ul>
       <div class="text-xs-center">
-        <v-btn round color="primary" dark @click="movePage('person')">人物</v-btn>
+        <v-btn round color="primary" dark @click="movePage('person')"
+          >人物</v-btn
+        >
       </div>
       <div class="text-xs-center">
-        <v-btn round color="primary" dark @click="movePage('animal')">動物</v-btn>
+        <v-btn round color="primary" dark @click="movePage('animal')"
+          >動物</v-btn
+        >
       </div>
       <div class="text-xs-center">
         <v-btn round color="primary" dark>風景</v-btn>
@@ -29,11 +33,10 @@
 
 <script>
 export default {
-    methods: {
-        movePage(link){
-            this.$router.push(link)
-        }
+  methods: {
+    movePage(link) {
+      this.$router.push(link);
     }
-}
+  }
+};
 </script>
-
