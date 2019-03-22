@@ -1,5 +1,5 @@
 <template>
-  <v-navigation-drawer :clipped="$vuetify.breakpoint.lgAndUp" fixed app>
+  <v-navigation-drawer clipped fixed app>
     <v-toolbar flat>
       <v-list>
         <v-list-tile>
